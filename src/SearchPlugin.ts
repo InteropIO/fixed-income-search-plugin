@@ -132,7 +132,7 @@ export const fixedIncomeSearchPluginFactory = async (io: IOConnectBrowser.API) =
   }
 
   const searchProvider = await io.search.registerProvider({
-    name: "launchpad-search-provider",
+    name: "fixed-income-search-provider",
   });
 
   await io.interop.register(activeWorkspaceSyncDefinition, (args) =>
@@ -330,11 +330,11 @@ function tokenizedSearch(
           break;
         }
 
-        case "Fixed Income Order": {
+        case "Order": {
           outputArr.push({
             type: { name: searchType },
             id: element.OrderId,
-            displayName: `Order ID ${
+            displayName: `'${FIXED_INCOME_WORKSPACE}' order with ID - ${
                 element.OrderId
               }` ,
             action: {
