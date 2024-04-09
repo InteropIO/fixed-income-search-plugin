@@ -1,0 +1,37 @@
+{
+  "name": "@interopio/fixed-income-search-plugin",
+  "version": "1.0.1",
+  "description": "Custom search plugin used by io browser platform in the official trial for Buy-side fixed income workspace",
+  "main": "dist/searchPlugin.umd.js",
+  "types": "./searchPlugin.d.ts",
+  "module": "dist/searchPlugin.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "build": "rollup -c",
+    "version": "npm run build",
+    "release": "np"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@interopio/browser": "^3.1.2",
+    "@interopio/search-api": "^2.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@types/node": "^18.11.10",
+    "eslint-config-prettier": "^8.5.0",
+    "np": "^7.6.4",
+    "rollup": "^3.17.3",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

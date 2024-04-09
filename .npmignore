@@ -1,0 +1,6 @@
+*
+!dist/**/*.js
+!dist/**/*.map
+!package.json
+!*.md
+!searchPlugin.d.ts
