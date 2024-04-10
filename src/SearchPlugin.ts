@@ -29,8 +29,8 @@ export interface Fdc3InstrumentId {
   [key: string]: unknown;
 }
 
-const UPDATE_WORKSPACE_CONTEXT_METHOD = "UpdateSelectedWorkspaceContext";
-const RESTORE_FI_WORKSPACE_WITH_CONTEXT_METHODNAME = "RestoreFIWorkspaceWithContext";
+const UPDATE_WORKSPACE_CONTEXT_METHOD = "FIUpdateSelectedWorkspaceContext";
+const RESTORE_FI_WORKSPACE_WITH_CONTEXT_METHODNAME = "FIRestoreWorkspaceWithContext";
 const RESTORE_WORKSPACE_SEARCH_SECTION = "Restore Workspace";
 
 const activeWorkspaceSyncDefinition = {
