@@ -1,6 +1,6 @@
 {
   "name": "@interopio/fixed-income-search-plugin",
-  "version": "1.0.1",
+  "version": "0.0.0",
   "description": "Custom search plugin used by io browser platform in the official trial for Buy-side fixed income workspace",
   "main": "dist/searchPlugin.umd.js",
   "types": "./searchPlugin.d.ts",
@@ -14,11 +14,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@interopio/browser": "^3.1.2",
-    "@interopio/search-api": "^2.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@interopio/browser": "^3.1.2",
+    "@interopio/search-api": "^2.1.0",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
