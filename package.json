@@ -1,6 +1,6 @@
 {
   "name": "@interopio/fixed-income-search-plugin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Custom search plugin used by io browser platform in the official trial for Buy-side fixed income workspace",
   "main": "dist/searchPlugin.umd.js",
   "types": "./searchPlugin.d.ts",
